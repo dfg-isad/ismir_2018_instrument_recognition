@@ -13,12 +13,20 @@
 ```
 ## Content
 
-File | Content
---- | --- 
-monotimbral_dataset.csv | List of Youtube URL and segment information to re-generate the MONOTIMBRAL dataset
-jazz_dataset.csv | List of Youtube URL, segment information, and additional metadata (artist, title, instrument label, recording year) to re-generate the JAZZ dataset
+This page provides metadata to reconstruct the MONOTIMBRAL and JAZZ dataset from the abovementioned publication.
 
-* Warning: Youtube URLs can become obsolete after a while if the original video is removed
+### MONOTIMBRAL dataset
+
+The file monotimbral_dataset.csv contains a list of youtube URLs, segment information for 16 different musical instruments (monotimbral recordings, i.e., monophonic of polyphonic instrument recordings without overlap to other instruments). There are 30 recordings per instruments.
+
+### JAZZ dataset
+
+The JAZZ dataset was compiled from solos from the Weimar Jazz Database (WJD) (https://jazzomat.hfm-weimar.de/dbformat/dboverview.html) and additional jazz solo excerpts taken from youtube videos.
+The file jazz_dataset.csv lists all the files in the dataset with their source (either WJD or YOUTUBE), the file jazz_dataset_youtube.csv lists the youtube URLs and metadata for the additional files taken from Youtube.
+
+## Comment 
+
+* Youtube URLs can become obsolete after a while if the original video is removed
 
 ## Contact
 
