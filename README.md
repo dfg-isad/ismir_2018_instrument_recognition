@@ -16,6 +16,7 @@
 File | Content
 --- | --- 
 monotimbral_dataset.csv | List of Youtube URL and segment information to re-generate the MONOTIMBRAL dataset
+jazz_dataset.csv | List of Youtube URL, segment information, and additional metadata (artist, title, instrument label, recording year) to re-generate the JAZZ dataset
 
 * Warning: Youtube URLs can become obsolete after a while if the original video is removed
 
