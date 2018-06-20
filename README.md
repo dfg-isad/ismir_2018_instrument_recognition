@@ -23,8 +23,16 @@ This script loads trained instrument recognition neural networks and makes predi
 
 ### Python package requirements
 
+The code was tested using the conda environement specified in the file [conda_env.yml](conda_env.yml).
+If you have [miniconda](https://conda.io/miniconda.html) installed, you can create an environment using
+
+```python
+conda env create -f conda_env.yml
 ```
-pip install keras, matplotlib, numpy, librosa, h5py
+and activate it using
+
+```python
+source activate deep
 ```
 
 ### Predict and Plot
